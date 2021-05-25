@@ -59,8 +59,8 @@ class ViewController: UIViewController {
             yellowLight.alpha = lightIsOn
             currenLight = .green
         case .green:
-            greenLight.alpha = lightIsOff
-            yellowLight.alpha = lightIsOn
+            greenLight.alpha = lightIsOn
+            yellowLight.alpha = lightIsOff
             currenLight = .red
        
         }
